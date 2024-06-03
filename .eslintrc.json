@@ -20,7 +20,14 @@
         "prettier"
     ],
     "rules": {
-        "prettier/prettier": ["error", { "singleQuote": true, "semi": true, "endOfLine": "auto" }],
+        "prettier/prettier": [
+            "error",
+            {
+                "singleQuote": true,
+                "semi": true,
+                "endOfLine": "auto"
+            }
+        ],
         "require-jsdoc": "off",
         "padded-blocks": "off",
         "linebreak-style": "off",
